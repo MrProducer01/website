@@ -260,3 +260,182 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+1
+git --version
+mkdir
+cd
+git init
+git status
+>echo>test.txt
+echo "hello how are you">test.txt
+git status
+git add test.txt
+git commit -m "first commit"
+
+2.
+git checkout -b feature_branch
+git checkout feature_branch
+git checkout master
+git merge feature branch
+
+3.
+notepad test.txt
+git status
+git stash(git stash save "name")
+git stash list
+git stash show
+git stash show -p (git stash show stash{2} -p)
+git stash apply(git stash apply stash@{2})
+git stash pop
+git stash drop
+git stash clear
+git stash branch new_feature stash@{0}
+
+4.
+git clone url
+git clone -b branch_name url
+
+5.
+book:
+git remote add origin https://webiste
+git fetch origin
+git checkout -b local_branch
+git fetch origin
+git rebase origin/master
+echo "rebasinf">test.txt
+git add test.txt
+got commit -m
+git push origin local_branch
+
+chatgpt:
+git clone
+cd website
+git remote -v
+git remote add new_remote https;
+git remote -v
+ git push new-remote feature
+ git fetch new-remote
+ git rebase origin/feature
+git fetch origin
+ git rebase origin/feature
+git fetch new-remote
+git rebase origin/feature
+ git push new-remote feature
+
+chat2:
+mkdir 
+cd init
+ git remote add origin/../website
+git fetch origin
+git merge origin/master
+git rebase origin/master
+
+6.merge
+
+7.
+mkdir tagdemo,cd,init,echo test,commit
+git tag v1.0.0
+modify
+echo " ddd" >>test.txt
+tag v2.0
+tag v3.0
+git tag
+git show v2.0
+git diff v v
+git checkout v1.0
+git tag -d v2.0
+
+8.
+git branch v1,2,3
+git checkout v3
+dir
+echo bugfix>bugfix.txt
+git log --oneline
+ccheckout cherry-pick hash
+
+9.
+git branch
+git log --oneline
+git show hash
+got log -n 1 hash
+git log --format=%B -n 1 hash
+
+10.
+git log --author="" --since="2023-01-01" --until="2024-12-12"
+
+git log -n 5
+
+12.
+git revert abc
+vim:esc,:wq enter
+notepad :ctrl S,alt f4
+(git config --global core.editor "notepad"
+)
+nano:ctrl o,entet,cntrl x
+gedit:ctrl s ,ctrl q*/
